@@ -43,7 +43,6 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Instansiasi objek transaksi dengan value contructor (saldo, pemilik akun)
         Transaksi transaksi = new Transaksi(5000000, "Reza");
 
         System.out.print("Masukkan PIN: ");

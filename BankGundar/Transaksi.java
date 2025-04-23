@@ -51,5 +51,4 @@ public class Transaksi extends Account implements Bank {
             System.out.println("Penarikan dana gagal! Saldo tidak cukup atau jumlah tidak valid!");
         }
     }
-
 }
